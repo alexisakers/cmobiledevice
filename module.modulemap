@@ -1,0 +1,5 @@
+module cmobiledevice [system] {
+  header "cmobiledevice.h"
+  link "imobiledevice"
+  export *
+}
