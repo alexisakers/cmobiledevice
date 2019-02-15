@@ -5,6 +5,6 @@ let package = Package(
     name: "cmobiledevice",
     pkgConfig: "libimobiledevice",
     providers: [
-        .brew("libimobiledevice")
+        .brew(["libimobiledevice"])
     ]
 )
